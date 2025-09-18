@@ -16,7 +16,7 @@ const projects = [
     title: "Mystic Realms",
     description:
       "An open-world fantasy RPG featuring dynamic weather systems, complex NPC interactions, and epic boss battles.",
-    image: "/fantasy-rpg-game-screenshot-with-magic.jpg",
+    image: "fantasy-rpg-game-screenshot-with-magic.jpg",
     technologies: ["Unreal Engine", "Blueprint", "C++"],
     liveUrl: "#",
     githubUrl: "#",
@@ -25,7 +25,7 @@ const projects = [
     title: "Space Colony Builder",
     description:
       "A strategic simulation game where players build and manage colonies across different planets in the galaxy.",
-    image: "/space-colony-building-strategy-game.jpg",
+    image: "space-colony-building-strategy-game.jpg",
     technologies: ["Godot", "GDScript", "SQLite"],
     liveUrl: "#",
     githubUrl: "#",
@@ -34,7 +34,7 @@ const projects = [
     title: "Puzzle Dimension",
     description:
       "A mind-bending puzzle platformer that plays with gravity and dimensional shifts to create unique gameplay mechanics.",
-    image: "/dimensional-puzzle-platformer-game.jpg",
+    image: "dimensional-puzzle-platformer-game.jpg",
     technologies: ["Unity", "C#", "Physics2D"],
     liveUrl: "#",
     githubUrl: "#",

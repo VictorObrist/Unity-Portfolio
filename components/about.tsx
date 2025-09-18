@@ -8,8 +8,8 @@ export function About() {
   const handleDownloadCV = () => {
     // In a real app, this would download the actual CV file
     const link = document.createElement("a")
-    link.href = "/cv.pdf" // You would replace this with your actual CV file path
-    link.download = "Game_Developer_CV.pdf"
+    link.href = "Victor_Obrist_Unity_Developer_CV.pdf" // You would replace this with your actual CV file path
+    link.download = "Victor_Obrist_Unity_Developer_CV.pdf"
     link.click()
   }
 
@@ -25,7 +25,7 @@ export function About() {
             <div className="space-y-6">
               <div className="w-64 h-64 mx-auto lg:mx-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center">
                 <img
-                  src="/professional-game-developer-portrait.jpg"
+                  src="professional-game-developer-portrait.jpg"
                   alt="Game Developer Portrait"
                   className="w-48 h-48 rounded-full object-cover"
                 />
