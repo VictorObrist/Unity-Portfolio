@@ -7,7 +7,7 @@ const projects = [
     title: "Neon Runner",
     description:
       "A fast-paced cyberpunk endless runner with stunning neon visuals and electronic soundtrack. Built with Unity and C#.",
-    image: "../public/cyberpunk-neon-runner-game-screenshot.jpg",
+    image: "cyberpunk-neon-runner-game-screenshot.jpg",
     technologies: ["Unity", "C#", "Shader Graph"],
     liveUrl: "#",
     githubUrl: "#",
