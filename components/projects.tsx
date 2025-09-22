@@ -4,41 +4,39 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "Neon Runner",
+    title: "Cubieverse",
     description:
-      "A fast-paced cyberpunk endless runner with stunning neon visuals and electronic soundtrack. Built with Unity and C#.",
-    image: "cyberpunk-neon-runner-game-screenshot.jpg",
-    technologies: ["Unity", "C#", "Shader Graph"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "A real-world, location-based mobile game where players explore their physical surroundings to find and collect virtual Cubies and other resources",
+    image: "cubieverse.webp",
+    technologies: ["Unity", "C#", "Shader Graph", "Mobile", "Android", "iOS", "Crypto"],
+    liveUrl: "https://medium.com/cubieverse/all"
   },
   {
-    title: "Mystic Realms",
+    title: "Romance Go",
     description:
-      "An open-world fantasy RPG featuring dynamic weather systems, complex NPC interactions, and epic boss battles.",
-    image: "fantasy-rpg-game-screenshot-with-magic.jpg",
-    technologies: ["Unreal Engine", "Blueprint", "C++"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "Mix between Dating sim and Tycoon. Meet millions of virtual people. Make friends, lovers and everything in between! Your new romantic life awaits.",
+    image: "logo_romance_go.svg",
+    technologies: ["Unity", "C#", "Shader Graph", "Mobile", "Android", "iOS"],
+    liveUrl: "https://www.romance-go.com",
   },
-  {
-    title: "Space Colony Builder",
-    description:
-      "A strategic simulation game where players build and manage colonies across different planets in the galaxy.",
-    image: "space-colony-building-strategy-game.jpg",
-    technologies: ["Godot", "GDScript", "SQLite"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Puzzle Dimension",
-    description:
-      "A mind-bending puzzle platformer that plays with gravity and dimensional shifts to create unique gameplay mechanics.",
-    image: "dimensional-puzzle-platformer-game.jpg",
-    technologies: ["Unity", "C#", "Physics2D"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   title: "Space Colony Builder",
+  //   description:
+  //     "A strategic simulation game where players build and manage colonies across different planets in the galaxy.",
+  //   image: "space-colony-building-strategy-game.jpg",
+  //   technologies: ["Godot", "GDScript", "SQLite"],
+  //   liveUrl: "#",
+  //   githubUrl: "#",
+  // },
+  // {
+  //   title: "Puzzle Dimension",
+  //   description:
+  //     "A mind-bending puzzle platformer that plays with gravity and dimensional shifts to create unique gameplay mechanics.",
+  //   image: "dimensional-puzzle-platformer-game.jpg",
+  //   technologies: ["Unity", "C#", "Physics2D"],
+  //   liveUrl: "#",
+  //   githubUrl: "#",
+  // },
 ]
 
 export function Projects() {
@@ -69,7 +67,7 @@ export function Projects() {
                     {project.technologies.map((tech, techIndex) => (
                       <span
                         key={techIndex}
-                        className="px-3 py-1 bg-accent/20 text-accent-foreground rounded-full text-sm font-medium"
+                        className="px-3 py-1 bg-accent/20 rounded-full text-sm font-medium"
                       >
                         {tech}
                       </span>
@@ -82,12 +80,12 @@ export function Projects() {
                         Live Demo
                       </a>
                     </Button>
-                    <Button variant="outline" size="sm" asChild>
+                    {/* <Button variant="outline" size="sm" asChild>
                       <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="w-4 h-4 mr-2" />
                         Code
                       </a>
-                    </Button>
+                    </Button> */}
                   </div>
                 </CardContent>
               </Card>

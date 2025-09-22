@@ -36,27 +36,27 @@ export function Contact() {
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:gamedev@example.com",
+      href: "mailto:victor.obrist@gmail.com",
       color: "text-primary",
     },
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com/gamedev",
+      href: "https://github.com/VictorObrist",
       color: "text-foreground",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com/in/gamedev",
+      href: "https://www.linkedin.com/in/victorobristb/",
       color: "text-blue-600",
     },
-    {
-      name: "Twitter",
-      icon: Twitter,
-      href: "https://twitter.com/gamedev",
-      color: "text-blue-400",
-    },
+    // {
+    //   name: "Twitter",
+    //   icon: Twitter,
+    //   href: "https://twitter.com/gamedev",
+    //   color: "text-blue-400",
+    // },
   ]
 
   return (

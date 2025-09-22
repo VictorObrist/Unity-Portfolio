@@ -25,7 +25,7 @@ export function About() {
             <div className="space-y-6">
               <div className="w-64 h-64 mx-auto lg:mx-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center">
                 <img
-                  src="professional-game-developer-portrait.jpg"
+                  src="perfil.jpg"
                   alt="Game Developer Portrait"
                   className="w-48 h-48 rounded-full object-cover"
                 />
@@ -33,25 +33,30 @@ export function About() {
             </div>
 
             <div className="space-y-6">
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                 {
-                  "I'm a passionate game developer with over 5 years of experience creating engaging and innovative gaming experiences. From indie mobile games to AAA console titles, I bring creativity and technical expertise to every project."
+                  "I'm a passionate game developer with over 6 years of experience as a Unity Developer and 15+ years of experience in Software Development, creating engaging and innovative gaming experiences."
+                }
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed text-justify">
+                {
+                  "From indie mobile games to PC titles, I bring creativity and technical expertise to every project."
                 }
               </p>
 
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                 {
                   "My expertise spans multiple game engines, programming languages, and design principles. I believe in creating games that not only entertain but also inspire and connect people."
                 }
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8">
-                <Card className="text-center p-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
+                {/* <Card className="text-center p-4">
                   <CardContent className="pt-4">
                     <Gamepad2 className="w-8 h-8 text-primary mx-auto mb-2" />
                     <h3 className="font-semibold">Game Design</h3>
                   </CardContent>
-                </Card>
+                </Card> */}
                 <Card className="text-center p-4">
                   <CardContent className="pt-4">
                     <Code className="w-8 h-8 text-primary mx-auto mb-2" />
@@ -61,7 +66,7 @@ export function About() {
                 <Card className="text-center p-4">
                   <CardContent className="pt-4">
                     <Palette className="w-8 h-8 text-primary mx-auto mb-2" />
-                    <h3 className="font-semibold">Art Direction</h3>
+                    <h3 className="font-semibold">Shaders</h3>
                   </CardContent>
                 </Card>
               </div>

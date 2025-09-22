@@ -21,12 +21,12 @@ export function Hero() {
       <div className="container mx-auto px-4 text-center z-10">
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
-            <p className="text-lg md:text-xl text-accent mb-2">Hello, I'm</p>
+            <p className="text-lg md:text-xl mb-2">Hello, I'm</p>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Victor Obrist</h2>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
-            <span className="text-foreground">Game</span> <span className="text-primary">Developer</span>
+            <span className="text-foreground">Unity/Game</span> <span className="text-primary">Developer</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-pretty">
             {"Crafting immersive experiences and bringing digital worlds to life"}
