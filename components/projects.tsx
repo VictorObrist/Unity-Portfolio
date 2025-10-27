@@ -19,15 +19,16 @@ const projects = [
     technologies: ["Unity", "C#", "Shader Graph", "Mobile", "Android", "iOS"],
     liveUrl: "https://www.romance-go.com",
   },
-  // {
-  //   title: "Space Colony Builder",
-  //   description:
-  //     "A strategic simulation game where players build and manage colonies across different planets in the galaxy.",
-  //   image: "space-colony-building-strategy-game.jpg",
-  //   technologies: ["Godot", "GDScript", "SQLite"],
-  //   liveUrl: "#",
-  //   githubUrl: "#",
-  // },
+  {
+    title: "2D RPG (WIP)",
+    description:
+      "2D Adventure RPG pixelart style, with crafting, skills tree and more.",
+    image: "2D-RPG.png",
+    technologies: ["Unity", "C#", "PC"],
+    liveUrl: "#"
+    //githubUrl: "#",
+  }
+  //,
   // {
   //   title: "Puzzle Dimension",
   //   description:
